@@ -1,5 +1,5 @@
-              h1{
-                 color: #FFD700;
+  h1{
+                 color: #008000;
                  text-align: center;
              }
 
@@ -9,12 +9,12 @@
 
 
              body{
-                 background-color: #DEB887;
+                 background-color: #FF1493;
                   border: solid;
              }
 
 .header{
-    background-color: #8B4513;
+    background-color: #FFD700;
     display: flex;
     justify-content: space-between;
     
@@ -59,7 +59,7 @@ h1{
 }
 
 .item p{
-   
+    position: absolute;
     top: 65%;
     left: 9%;
     transform: translate(-50%, -90%);
@@ -68,3 +68,10 @@ h1{
 
 
 
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
